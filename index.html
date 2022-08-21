@@ -40,7 +40,7 @@
     </div>
     <!-- <script type="module" src="app.js"></script> -->
     <script>
-        const webSocket = new WebSocket('ws://localhost:3000')
+        const webSocket = new WebSocket('ws://172.27.0.11:3000')
 
 webSocket.onopen = event => {
     document.querySelector('.status').innerHTML = 'online'
