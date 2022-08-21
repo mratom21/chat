@@ -45,12 +45,11 @@ function sendMessage(str=''){
         const input = document.querySelector('.chat-input input')
         const message =  `[${nickname}]: ${input.value}`
         
-        if (message === ''){
+        if (input.value === ''){
         }else {
             webSocket.send(message)
             input.value = ''
         }
-       
     } else {
         const display = document.querySelector('.display')
         const divMessage = document.createElement('div')
