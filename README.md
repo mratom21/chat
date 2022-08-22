@@ -1,6 +1,6 @@
 # The Chat
 
-The Chat - чатоснованный почти на чистом JavaScript.
+The Chat - чат основанный почти на чистом JavaScript.
 
 Это мой первый крупный FullStack приложение.
 
